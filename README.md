@@ -6,6 +6,10 @@ Website: https://wenbinailab.com
 
 ---
 
+![WenBin AI LAB website screenshot](./assets/screenshots/ScreenShot_2026-06-09_190636_096.png)
+
+---
+
 ## Language
 
 * [English](./README.en.md)
