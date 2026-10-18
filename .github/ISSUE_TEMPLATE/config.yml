@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report / 私密安全报告
+    url: https://github.com/BeatsAD/WenBin-AI-LAB-Showcase/security/advisories/new
+    about: Report vulnerabilities privately; do not use public issues / 私密报告安全问题，请勿使用公开 Issue
+  - name: WenBin AI LAB website / 访问网站
+    url: https://wenbinailab.com
+    about: Explore the public website / 浏览公开网站

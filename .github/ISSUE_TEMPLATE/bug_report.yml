@@ -1,0 +1,58 @@
+name: Bug report / 问题反馈
+description: Report a documentation, display, or website problem / 反馈文档、展示或网站问题
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For security issues, use [private vulnerability reporting](https://github.com/BeatsAD/WenBin-AI-LAB-Showcase/security/advisories/new).
+        安全问题请走私密报告入口。请勿提交密码、Cookie、密钥或个人数据。
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area / 受影响范围
+      options:
+        - Documentation / 文档
+        - Images or links / 图片或链接
+        - Live website / 在线网站
+        - Other / 其他
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Page URL or repository path / 页面地址或仓库路径
+      placeholder: "README.zh-CN.md or https://wenbinailab.com/..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps / 复现步骤
+      description: Describe the actions needed to reproduce the problem / 说明如何复现问题
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / 预期结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior / 实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 环境信息
+      description: Include OS, browser version, device, and window size as relevant / 按需提供系统、浏览器版本、设备与窗口尺寸
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or context / 截图或补充信息
+      description: Remove sensitive information before uploading / 上传前请遮盖敏感信息
