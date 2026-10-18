@@ -1,0 +1,44 @@
+name: Feature request / 功能建议
+description: Suggest an improvement to the showcase or website / 提出展示仓库或网站的改进建议
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before submitting. Do not include private information.
+        提交前请搜索现有 Issue，避免重复，并勿包含私密信息。
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / 范围
+      options:
+        - Documentation or translation / 文档或翻译
+        - Showcase presentation / 展示效果
+        - Live website / 在线网站
+        - Other / 其他
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Use case and problem / 使用场景与问题
+      description: Who needs this and what is difficult today? / 谁会使用，目前遇到什么困难？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement / 建议的改进
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome / 期望结果
+      description: What would a successful change look like? / 如何判断改进有效？
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or references / 替代方案或参考
